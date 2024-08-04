@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-semibold bg-zinc-900  ">
+
+    <!-- Navbar -->
+    <nav class="flex text-white bg-black gap-10 text-xs p-2 items-center justify-between px-5 ">
+        <ul class="flex justify-start text-center gap-5">
+            <li><a href="#" class="hover:bg-zinc-400 transition duration-150 px-1 rounded">Cara Download</a></li>
+            <li><a href="#" class="hover:bg-zinc-400 transition duration-150 px-1 rounded">DMCA</a></li>
+        </ul>
+
+        <div>
+            <a href="#" class="px-2 py-1 bg-zinc-700 rounded mr-1 text-white text-center inline-block hover:bg-zinc-400 transition duration-150">LAPOR LINK</a>
+            <a href="#" class="px-2 py-1 bg-zinc-700 rounded text-white text-center inline-block hover:bg-zinc-400 transition duration-150">GRUP FB</a>
+        </div>
+    </nav>
+
+    <div class="bg-zinc-900 px-5 py-2 flex">
+        <img src="images/image.png" alt="Description of image">
+    </div>
+
+    <div class="grid grid-cols-2 gap-2 p-2 bg-zinc-900">
+        <a href="#" class="p-3 text-left bg-zinc-700 text-white hover:bg-sky-600 transition duration-300">Home</a>
+        <a href="#" class="p-3 text-left bg-zinc-700 text-white hover:bg-sky-600 transition duration-300">Jadwal Rilis</a>
+        <a href="#" class="p-3 text-left bg-zinc-700 text-white hover:bg-sky-600 transition duration-300">Genre List</a>
+        <a href="#" class="p-3 text-left bg-zinc-700 text-white hover:bg-sky-600 transition duration-300">Anime List</a>
+        <a href="#" class="p-3 text-left bg-zinc-700 text-white hover:bg-sky-600 transition duration-300">On-Going Anime</a>
+        <a href="#" class="p-3 text-left bg-zinc-700 text-white hover:bg-sky-600 transition duration-300">Fanpage</a>
+    </div>
+
+    <div class="relative border border-black m-1">
+        <input type="text" placeholder="Search..." class="w-full py-2 pl-10 pr-4 rounded bg-gray-200 text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+    </div>
+
+    <div class="p-1 bg-sky-500"></div>
+
+    <div class="bg-background p-4 text-white">
+        <h1 class="text-xl font-bold text-primary mb-4 bg-sky-600 inline-block px-2 p-1 rounded">On-going Anime</h1>
+        <p class="text-muted-foreground mb-4 ml-1">Situs resmi Otakudesu hanya otakudesu.cloud, selain dari ini adalah situs palsu.</p>
+        <a href="#" class="bg-primary text-primary-foreground px-5 py-1 rounded-lg bg-blue-700 ">Cek Anime Lainnya</a>
+      
+
+        <!-- Anime Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4" id="anime">
+            <a href="#" class="relative block overflow-hidden group">
+                <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/74/2023/12/24/20231224_080245-2967912632.jpg" alt="One Piece" class="w-full h-auto rounded-lg transition-transform duration-300 group-hover:scale-110" />
+                <div class="absolute top-0 left-0 bg-black bg-opacity-50 text-white p-2 z-10">Episode 3</div>
+                <div class="absolute bottom-0 left-0 bg-blue-500 text-white p-2 z-10">04 Agu</div>
+                <div class="absolute top-0 right-0 bg-blue-600 text-white p-2 z-10">Minggu</div>
+                <div class="absolute bottom-0 right-0 bg-white text-black p-2 z-10">One Piece</div>
+                <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </a>
+        
+            <a href="#" class="relative block overflow-hidden group">
+                <img src="https://awsimages.detik.net.id/community/media/visual/2024/04/04/anime-kimi-no-todoke.jpeg?w=700&q=90" alt="Kimi ni Todoke" class="w-full h-auto rounded-lg transition-transform duration-300 group-hover:scale-110" />
+                <div class="absolute top-0 left-0 bg-black bg-opacity-50 text-white p-2 z-10">Episode 3</div>
+                <div class="absolute bottom-0 left-0 bg-blue-500 text-white p-2 z-10">04 Agu</div>
+                <div class="absolute top-0 right-0 bg-zinc-500 text-white p-2 z-10">None</div>
+                <div class="absolute bottom-0 right-0 bg-white text-black p-2 z-10">Kimi ni Todoke</div>
+                <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </a>
+        
+            <a href="#" class="relative block overflow-hidden group">
+                <img src="https://external-preview.redd.it/shoushimin-series-the-petit-bourgeois-series-teaser-visual-v0-iAj0jGnyM-iSoqzT5slDbnG2d3GS7NWcp8oLAV_FaMQ.jpg?auto=webp&s=0cfdb2b00dfd0a94300edf4d4f5d209b8e0e2151" alt="Shoumin Series" class="w-full h-auto rounded-lg transition-transform duration-300 group-hover:scale-110" />
+                <div class="absolute top-0 left-0 bg-black bg-opacity-50 text-white p-2 z-10">Episode</div>
+                <div class="absolute bottom-0 left-0 bg-blue-500 text-white p-2 z-10">04 Agu</div>
+                <div class="absolute top-0 right-0 bg-blue-600 text-white p-2 z-10">Minggu</div>
+                <div class="absolute bottom-0 right-0 bg-white text-black p-2 z-10">Shoumin Series</div>
+                <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </a>
+        
+            <a href="#" class="relative block overflow-hidden group">
+                <img src="https://m.media-amazon.com/images/M/MV5BM2I1MWUwZGItMDIxOC00ZGNiLTllMDEtMzg1NWY0NTU3NWViXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" alt="The Fable" class="w-full h-auto rounded-lg transition-transform duration-300 group-hover:scale-110" />
+                <div class="absolute top-0 left-0 bg-black bg-opacity-50 text-white p-2 z-10">Episode</div>
+                <div class="absolute bottom-0 left-0 bg-blue-500 text-white p-2 z-10">04 Agu</div>
+                <div class="absolute top-0 right-0 bg-zinc-500 text-white p-2 z-10">None</div>
+                <div class="absolute bottom-0 right-0 bg-white text-black p-2 z-10">The Fable</div>
+                <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </a>
+        
+            <a href="#" class="relative block overflow-hidden group">
+                <img src="https://cdn.myanimelist.net/images/anime/1748/134527.jpg" alt="Shoumin Series" class="w-full h-auto rounded-lg transition-transform duration-300 group-hover:scale-110" />
+                <div class="absolute top-0 left-0 bg-black bg-opacity-50 text-white p-2 z-10">Episode</div>
+                <div class="absolute bottom-0 left-0 bg-blue-500 text-white p-2 z-10">04 Agu</div>
+                <div class="absolute top-0 right-0 bg-blue-600 text-white p-2 z-10">Minggu</div>
+                <div class="absolute bottom-0 right-0 bg-white text-black p-2 z-10">nige jouzu no wakagimi</div>
+                <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </a>
+        
+            <a href="#" class="relative block overflow-hidden group">
+                <img src="https://cdn.myanimelist.net/images/anime/1332/143513.jpg" alt="The Fable" class="w-full h-auto rounded-lg transition-transform duration-300 group-hover:scale-110" />
+                <div class="absolute top-0 left-0 bg-black bg-opacity-50 text-white p-2 z-10">Episode</div>
+                <div class="absolute bottom-0 left-0 bg-blue-500 text-white p-2 z-10">04 Agu</div>
+                <div class="absolute top-0 right-0 bg-zinc-500 text-white p-2 z-10">None</div>
+                <div class="absolute bottom-0 right-0 bg-white text-black p-2 z-10">Make heroine ga</div>
+                <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </a>
+        
+            <a href="#" class="relative block overflow-hidden group">
+                <img src="https://api.duniagames.co.id/api/content/upload/file/5613032711702275733.jpg" alt="Shoumin Series" class="w-full h-auto rounded-lg transition-transform duration-300 group-hover:scale-110" />
+                <div class="absolute top-0 left-0 bg-black bg-opacity-50 text-white p-2 z-10">Episode</div>
+                <div class="absolute bottom-0 left-0 bg-blue-500 text-white p-2 z-10">04 Agu</div>
+                <div class="absolute top-0 right-0 bg-blue-600 text-white p-2 z-10">Minggu</div>
+                <div class="absolute bottom-0 right-0 bg-white text-black p-2 z-10">Boku no hero academia s7</div>
+                <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </a>
+        
+            <a href="#" class="relative block overflow-hidden group">
+                <img src="https://m.media-amazon.com/images/I/810Xo+d8xlL._AC_UF1000,1000_QL80_.jpg" alt="The Fable" class="w-full h-auto rounded-lg transition-transform duration-300 group-hover:scale-110" />
+                <div class="absolute top-0 left-0 bg-black bg-opacity-50 text-white p-2 z-10">Episode</div>
+                <div class="absolute bottom-0 left-0 bg-blue-500 text-white p-2 z-10">04 Agu</div>
+                <div class="absolute top-0 right-0 bg-zinc-500 text-white p-2 z-10">None</div>
+                <div class="absolute bottom-0 right-0 bg-white text-black p-2 z-10">Naruto</div>
+                <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </a>
+        </div>
+        
+
+        <!-- Form Tambah Anime -->
+<div class="p-4 bg-gray-800 text-white mt-10 rounded">
+    <h2 class="text-xl font-bold mb-4">Tambah Anime</h2>
+    <form id="add-anime-form">
+        <div class="mb-4">
+            <label for="anime-title" class="block text-sm font-medium mb-1">Judul Anime</label>
+            <input type="text" id="anime-title" class="w-full py-2 px-3 rounded bg-gray-700 text-white" required>
+        </div>
+        <div class="mb-4">
+            <label for="anime-image" class="block text-sm font-medium mb-1">URL Gambar</label>
+            <input type="url" id="anime-image" class="w-full py-2 px-3 rounded bg-gray-700 text-white" required>
+        </div>
+        <div class="mb-4">
+            <label for="anime-episode" class="block text-sm font-medium mb-1">Episode</label>
+            <input type="text" id="anime-episode" class="w-full py-2 px-3 rounded bg-gray-700 text-white" required>
+        </div>
+        <div class="mb-4">
+            <label for="anime-date" class="block text-sm font-medium mb-1">Tanggal</label>
+            <input type="text" id="anime-date" class="w-full py-2 px-3 rounded bg-gray-700 text-white" required>
+        </div>
+        <div class="mb-4">
+            <label for="anime-day" class="block text-sm font-medium mb-1">Hari</label>
+            <input type="text" id="anime-day" class="w-full py-2 px-3 rounded bg-gray-700 text-white" required>
+        </div>
+        <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded">Tambah Anime</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
